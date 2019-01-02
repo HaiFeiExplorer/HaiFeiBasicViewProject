@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		338C489D2BDD609795EE9AAD /* libPods-HFSBasicViewProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB87DE4A597EC1A586A62FB /* libPods-HFSBasicViewProject.a */; };
+		4CB42A3721DCADED002CD548 /* UIViewController+AddtionItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB42A3321DCADEC002CD548 /* UIViewController+AddtionItems.m */; };
+		4CB42A3821DCADED002CD548 /* UINavigationBar+HFSAddtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB42A3621DCADED002CD548 /* UINavigationBar+HFSAddtion.m */; };
+		4CB42A3C21DCAE58002CD548 /* HFSNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB42A3A21DCAE58002CD548 /* HFSNextViewController.m */; };
+		4CB42A3D21DCAE58002CD548 /* HFSNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB42A3B21DCAE58002CD548 /* HFSNextViewController.xib */; };
 		4CD3FE9921CCC40A00E73948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3FE9821CCC40A00E73948 /* AppDelegate.m */; };
 		4CD3FE9C21CCC40A00E73948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD3FE9B21CCC40A00E73948 /* ViewController.m */; };
 		4CD3FE9F21CCC40B00E73948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CD3FE9D21CCC40B00E73948 /* Main.storyboard */; };
@@ -35,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4CB42A3321DCADEC002CD548 /* UIViewController+AddtionItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AddtionItems.m"; sourceTree = "<group>"; };
+		4CB42A3421DCADEC002CD548 /* UIViewController+AddtionItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AddtionItems.h"; sourceTree = "<group>"; };
+		4CB42A3521DCADED002CD548 /* UINavigationBar+HFSAddtion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HFSAddtion.h"; sourceTree = "<group>"; };
+		4CB42A3621DCADED002CD548 /* UINavigationBar+HFSAddtion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HFSAddtion.m"; sourceTree = "<group>"; };
+		4CB42A3921DCAE58002CD548 /* HFSNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFSNextViewController.h; sourceTree = "<group>"; };
+		4CB42A3A21DCAE58002CD548 /* HFSNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFSNextViewController.m; sourceTree = "<group>"; };
+		4CB42A3B21DCAE58002CD548 /* HFSNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HFSNextViewController.xib; sourceTree = "<group>"; };
+		4CB42A3F21DCB5DF002CD548 /* HFSBasicViewProject.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HFSBasicViewProject.pch; sourceTree = "<group>"; };
 		4CD3FE9421CCC40A00E73948 /* HFSBasicViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HFSBasicViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3FE9721CCC40A00E73948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4CD3FE9821CCC40A00E73948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +64,9 @@
 		4CD3FEB721CCC40C00E73948 /* HFSBasicViewProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HFSBasicViewProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD3FEBB21CCC40C00E73948 /* HFSBasicViewProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HFSBasicViewProjectUITests.m; sourceTree = "<group>"; };
 		4CD3FEBD21CCC40C00E73948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DB87DE4A597EC1A586A62FB /* libPods-HFSBasicViewProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HFSBasicViewProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3E668A7BA7DB2BA377AAEA /* Pods-HFSBasicViewProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSBasicViewProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HFSBasicViewProject/Pods-HFSBasicViewProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C93A2403E1AC5B8F2B0B88A6 /* Pods-HFSBasicViewProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HFSBasicViewProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-HFSBasicViewProject/Pods-HFSBasicViewProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338C489D2BDD609795EE9AAD /* libPods-HFSBasicViewProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C4FB0F0B1E32F349683B5E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA3E668A7BA7DB2BA377AAEA /* Pods-HFSBasicViewProject.debug.xcconfig */,
+				C93A2403E1AC5B8F2B0B88A6 /* Pods-HFSBasicViewProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4CD3FE8B21CCC40A00E73948 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				4CD3FEAF21CCC40C00E73948 /* HFSBasicViewProjectTests */,
 				4CD3FEBA21CCC40C00E73948 /* HFSBasicViewProjectUITests */,
 				4CD3FE9521CCC40A00E73948 /* Products */,
+				4C4FB0F0B1E32F349683B5E5 /* Pods */,
+				A3D152887F1675229CE24C8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,11 +133,19 @@
 				4CD3FE9821CCC40A00E73948 /* AppDelegate.m */,
 				4CD3FE9A21CCC40A00E73948 /* ViewController.h */,
 				4CD3FE9B21CCC40A00E73948 /* ViewController.m */,
+				4CB42A3921DCAE58002CD548 /* HFSNextViewController.h */,
+				4CB42A3A21DCAE58002CD548 /* HFSNextViewController.m */,
+				4CB42A3B21DCAE58002CD548 /* HFSNextViewController.xib */,
+				4CB42A3521DCADED002CD548 /* UINavigationBar+HFSAddtion.h */,
+				4CB42A3621DCADED002CD548 /* UINavigationBar+HFSAddtion.m */,
+				4CB42A3421DCADEC002CD548 /* UIViewController+AddtionItems.h */,
+				4CB42A3321DCADEC002CD548 /* UIViewController+AddtionItems.m */,
 				4CD3FE9D21CCC40B00E73948 /* Main.storyboard */,
 				4CD3FEA021CCC40C00E73948 /* Assets.xcassets */,
 				4CD3FEA221CCC40C00E73948 /* LaunchScreen.storyboard */,
 				4CD3FEA521CCC40C00E73948 /* Info.plist */,
 				4CD3FEA621CCC40C00E73948 /* main.m */,
+				4CB42A3F21DCB5DF002CD548 /* HFSBasicViewProject.pch */,
 			);
 			path = HFSBasicViewProject;
 			sourceTree = "<group>";
@@ -132,6 +168,14 @@
 			path = HFSBasicViewProjectUITests;
 			sourceTree = "<group>";
 		};
+		A3D152887F1675229CE24C8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DB87DE4A597EC1A586A62FB /* libPods-HFSBasicViewProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +183,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CD3FEC021CCC40C00E73948 /* Build configuration list for PBXNativeTarget "HFSBasicViewProject" */;
 			buildPhases = (
+				9965536E16F8DF4DBA5793D0 /* [CP] Check Pods Manifest.lock */,
 				4CD3FE9021CCC40A00E73948 /* Sources */,
 				4CD3FE9121CCC40A00E73948 /* Frameworks */,
 				4CD3FE9221CCC40A00E73948 /* Resources */,
@@ -236,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CD3FEA421CCC40C00E73948 /* LaunchScreen.storyboard in Resources */,
+				4CB42A3D21DCAE58002CD548 /* HFSNextViewController.xib in Resources */,
 				4CD3FEA121CCC40C00E73948 /* Assets.xcassets in Resources */,
 				4CD3FE9F21CCC40B00E73948 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +303,42 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9965536E16F8DF4DBA5793D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HFSBasicViewProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CD3FE9021CCC40A00E73948 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB42A3821DCADED002CD548 /* UINavigationBar+HFSAddtion.m in Sources */,
+				4CB42A3C21DCAE58002CD548 /* HFSNextViewController.m in Sources */,
 				4CD3FE9C21CCC40A00E73948 /* ViewController.m in Sources */,
 				4CD3FEA721CCC40C00E73948 /* main.m in Sources */,
 				4CD3FE9921CCC40A00E73948 /* AppDelegate.m in Sources */,
+				4CB42A3721DCADED002CD548 /* UIViewController+AddtionItems.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +434,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = " $(SRCROOT)/HFSBasicViewProject/HFSBasicViewProject.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -370,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -417,13 +493,15 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = " $(SRCROOT)/HFSBasicViewProject/HFSBasicViewProject.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,10 +511,13 @@
 		};
 		4CD3FEC121CCC40C00E73948 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA3E668A7BA7DB2BA377AAEA /* Pods-HFSBasicViewProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9UPX4LZRG;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = HFSBasicViewProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,10 +532,13 @@
 		};
 		4CD3FEC221CCC40C00E73948 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C93A2403E1AC5B8F2B0B88A6 /* Pods-HFSBasicViewProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9UPX4LZRG;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = HFSBasicViewProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
