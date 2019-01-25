@@ -34,26 +34,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aKB-gW-exL">
-                                <rect key="frame" x="143" y="316.5" width="89" height="34"/>
-                                <color key="backgroundColor" red="0.40784313729999999" green="0.80392156859999997" blue="0.95294117649999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="nextButton"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="20b-h2-Esx">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
-                                    <action selector="nextButttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nOG-Os-sR1"/>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="s9r-Xb-Msc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="2sP-xG-aLp"/>
                                 </connections>
-                            </button>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="aKB-gW-exL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="u0r-Aw-Qub"/>
-                            <constraint firstItem="aKB-gW-exL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wfn-Sb-blp"/>
+                            <constraint firstItem="20b-h2-Esx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="1Ep-tV-qsP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="20b-h2-Esx" secondAttribute="bottom" id="F0l-Qr-tC4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="20b-h2-Esx" secondAttribute="trailing" id="ggk-zb-ef9"/>
+                            <constraint firstItem="20b-h2-Esx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hnM-f4-5k9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="GYv-53-Pen"/>
+                    <connections>
+                        <outlet property="mainTabelView" destination="20b-h2-Esx" id="ZQc-Qj-lHl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="669.60000000000002" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>

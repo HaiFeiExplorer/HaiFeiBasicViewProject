@@ -10,6 +10,14 @@
 #import "HFSNextViewController.h"
 
 @interface ViewController ()
+{
+    
+    __weak IBOutlet UITableView *mainTabelView;
+    
+    
+    
+}
+
 
 @end
 
